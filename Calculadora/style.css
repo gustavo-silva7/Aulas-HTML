@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Times New Roman', Times, serif
+}
+
+body{
+    background:#807e7e;
+    height:900px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.container{
+    width:10000px;
+    display:flex;
+    justify-content:center;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    width:900px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+.card p{
+    text-align:center;
+}
+
+.card h1{
+    text-align:center;
+    margin:10px 0;
+}
+
+.instrucao{
+    font-size:14px;
+    color:#555;
+    margin-bottom:20px;
+}
+
+.formulario{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+}
+
+input, select{
+    padding:8px;
+    border:1px solid #000000;
+    border-radius:5px;
+    font-size:18px;
+    background-color: #d4d2d2;
+}
+
+.button{
+    margin-top:15px;
+    display:flex;
+    gap:10px;
+}
+
+button{
+    flex:1;
+    padding:10px;
+    border:none;
+    border-radius:5px;
+    background:#007bff;
+    color:white;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+button:hover{
+    background:#0056b3;
+}
+
+.second{
+    background:#6c757d;
+}
+
+.second:hover{
+    background:#545b62;
+}
+
+.resultado-box{
+    margin-top:20px;
+    text-align:center;
+}
+
+#resultado{
+    color:#007bff;
+    margin-top:5px;
+}
